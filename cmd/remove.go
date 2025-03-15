@@ -13,7 +13,7 @@ var removeCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		id, err := strconv.Atoi(args[0])
 		if err == nil {
-			main.removeTask(id)
+			removeTask(id) // ✅ Correct function call
 		}
 	},
 }

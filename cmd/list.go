@@ -8,7 +8,7 @@ var listCmd = &cobra.Command{
 	Use:   "list",
 	Short: "List all tasks",
 	Run: func(cmd *cobra.Command, args []string) {
-		main.listTasks()
+		listTasks() // ✅ Correct function call
 	},
 }
 
