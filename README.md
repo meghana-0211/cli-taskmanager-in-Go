@@ -1,4 +1,4 @@
-### **CLI Task Manager 📋**
+### **CLI Task Manager **
 A simple command-line task manager built using **Go** and **Cobra**.  
 
 ---
